@@ -1,0 +1,24 @@
+path {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+  }
+  svg {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    outline: 1px solid black;
+  }
+  canvas {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: auto;
+    touch-action: none;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: flex-start;
+    margin: 0;
+    background: black;
+  }

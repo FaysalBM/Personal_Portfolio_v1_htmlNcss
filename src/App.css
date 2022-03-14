@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&family=Staatliches&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Saira+Condensed:wght@200&family=Staatliches&family=Unica+One&display=swap');
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+html, body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+
+.scrollArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.scroll {
+  color: white;
+
+}
+.aboutMe {
+  
+  width: 80vh;
+  height: 300vh;
+  margin: 0;
+  align-items: center;
+  font-family: 'Electrolize', sans-serif;
+  display: block;
+  
+  color: white;
+  text-align: justify-all;
+  position: absolute;
+  /* From https://css.glass */
+  background: transparent;
+  z-index: 100;
+  /*box-shadow: 0 4px 30px grey;*/
+
+}
+
+.scroll{
+  width: 80vh;
+  height: 80vh;
+}
+
+
+
+
+
+.aboutMe h1 {
+  margin-right: 300px;
+  position: absolute;
+  margin-bottom: 250vh;
+  font-size: 80px;
+  margin-top:200px;
+  font-weight: bold;
+  letter-spacing: 0.5vh;
+  z-index: 100;
+}
+.aboutMe h3 {
+  z-index: 100;
+  font-size: 20px;
+  margin-top:40vh;
+  margin-bottom: 230vh;
+
+  position: absolute;
+  letter-spacing: 3px;
+}
+.aboutMe .hope
+  {
+  margin-top:60vh;
+  margin-right: 300px;
+  position: absolute;
+  letter-spacing: 3px;
+  }
+
+.aboutMe .skillTitle
+{
+  margin-right: 3%;
+  position: absolute;
+  margin-bottom: 10vh;
+  font-size: 90px;
+  margin-top:600px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+.aboutMe .skillsText
+{
+  font-size: 180%;
+  margin-top:90px;
+  margin-bottom: 5vh;
+}
+
+.aboutMe .cmTitle
+{
+  color: white;
+  margin-right: 50px;
+  position: absolute;
+  margin-bottom: 0;
+  font-size: 100px;
+  margin-top:380vh;
+  font-weight: bold;
+
+}
+
+a{
+  font-family:'Saira Condensed', sans-serif;
+  text-decoration: none;
+
+}
+
+.skillsGraph
+{
+  width: 800px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Saira Condensed', sans-serif;
+  margin-top: 50px;
+
+}
+
+.skills{
+
+  margin-top: 0;
+  color: white;
+  margin-bottom: 40px;
+
+}
+.skills .text{
+  width: 12px;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.skills .row{
+  margin: 1rem 0;
+}
+.skills .item{
+  padding: 0.5rem 0;
+  margin: 0.3rem 0;
+}
+.skills .item-text{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 200;
+  font-size: 18px;
+  position: relative;
+}
+.skills .item-text span:last-child{
+  position: absolute;
+}
+.skills .item-text .w-90{
+  margin-left: 85%;
+}
+.skills .item-text .w-75{
+  margin-left: 70%;
+}
+.skills .item-text .w-85{
+  margin-left: 80%;
+}
+.skills .item-text .w-80{
+  margin-left: 75%;
+}
+.skills .item-text .w-60{
+  margin-left: 90%;
+}
+.skills .item-text .w-68{
+  margin-left: 63%;
+}
+.skills .item-text .w-65{
+  margin-left: 60%;
+}
+.progress{
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  height: 16px;
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 2px 8px red;
+  overflow: hidden;
+}
+.progress-bar{
+  background: red;
+  box-shadow: 0 4px 10px grey;
+  height: 100%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+  width: 90%;
+}
+.progress-bar.w-75{
+  width: 75%;
+}
+.progress-bar.w-85{
+  width: 85%;
+}
+.progress-bar.w-80{
+  width: 80%;
+}
+.progress-bar.w-60{
+  width: 95%;
+}
+.progress-bar.w-68{
+  width: 68%;
+}
+.progress-bar.w-65{
+  width: 65%;
+}
+
+
+.cmTitle
+{
+  margin-top: 1600vh;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.contactMeStuff
+{
+  width: 100vh;
+  height: 70vh;
+  margin: 0;
+  font-family: 'Saira Condensed', sans-serif;
+
+}
+.stuffCm
+{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.buttons{
+  display: flex;
+  width: 900px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.buttons .row{
+  display: block;
+  margin-left: 60px;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.buttons .row button{
+  font-family: 'Saira Condensed', sans-serif;
+  position: relative;
+  display: block;
+  height: 80px;
+  width: 190px;
+  margin: 40px 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  transition: all 0s ease-out;
+}
+.row button:active{
+  top: 3px;
+}
+.row button.facebook,
+.row button.facebook span{
+  background: #3B5999;
+  border-left: 1px solid #2E4476;
+  box-shadow: 0px 5px 0px 0px #2E4476;
+}
+.row button.facebook:active{
+  box-shadow: 0px 2px 0px 0px #2E4476;
+}
+.row button.twitter,
+.row button.twitter span{
+  background: #46C1F6;
+  border-left: 1px solid #269BD0;
+  box-shadow: 0px 5px 0px 0px #269BD0;
+}
+.row button.twitter:active{
+  box-shadow: 0px 2px 0px 0px #269BD0;
+}
+.row button.instagram,
+.row button.instagram span{
+  background: #4f4f4f;
+  border-left: 1px solid #b0b0b0;
+  box-shadow: 0px 5px 0px 0px #b7b7b7;
+}
+.row button.instagram:active{
+  box-shadow: 0px 2px 0px 0px #595959;
+}
+.row button.youtube,
+.row button.youtube span{
+  background: #DE463B;
+  border-left: 1px solid #C02B21;
+  box-shadow: 0px 5px 0px 0px #C02B21;
+}
+.row button.youtube:active{
+  box-shadow: 0px 2px 0px 0px #C02B21;
+}
+.row button span{
+  position: absolute;
+  height: 55px;
+  width: 60px;
+  top: 0;
+  left: -60px;
+  line-height: 55px;
+  font-size: 25px;
+  display: block;
+  font-weight: normal;
+  border-radius: 5px 0 0 5px;
+}
+.row button:active span{
+  top: -3px;
+}
+.row button.facebook span{
+  border-right: 1px solid #2E4476;
+}
+.row button.twitter span{
+  border-right: 1px solid #269BD0;
+}
+.row button.instagram span{
+  border-right: 1px solid #7c7c7c;
+}
+.row button.youtube span{
+  border-right: 1px solid #C02B21;
+}
+.row button.facebook:active span{
+  box-shadow: 0px 5px 0px 0px #2E4476,
+  6px 4px 2px rgba(0,0,0,0.3);
+}
+.row button.twitter:active span{
+  box-shadow: 0px 5px 0px 0px #269BD0,
+  6px 4px 2px rgba(0,0,0,0.3);
+}
+.row button.instagram:active span{
+  box-shadow: 0px 5px 0px 0px #9e9e9e,
+  6px 4px 2px rgba(0,0,0,0.3);
+}
+.row button.youtube:active span{
+  box-shadow: 0px 5px 0px 0px #C02B21,
+  6px 4px 2px rgba(0,0,0,0.3);
+}
+
+
+.copyright
+{
+  color: white;
+  width: 187vh;
+  height: 45vh;
+  background-color: black;
+}
+
+.copy
+{
+  margin-left: 35%;
+  margin-top: 10%;
+  font-size: 2.5vh;
+}
+
+.frase
+{
+  font-family:"Times New Roman", 'Ancient Runes', serif ;
+  font-size:10vh ;
+  margin-top: -40px;
+  margin-left: 7%;
+}
+
+.update
+{
+  font-size: 14px;
+  margin-left: 82vh;
+  font-weight: 1;
+  color: grey;
+}
